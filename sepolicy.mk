@@ -24,4 +24,4 @@ BOARD_VENDOR_SEPOLICY_DIRS += \
 # Add sepolicy version to support OS upgrade and backward compatibility
 BOARD_SEPOLICY_VERS := $(PLATFORM_SDK_VERSION).0
 
--include device/lineage/sepolicy/qcom/sepolicy.mk
+-include device/awaken/sepolicy/qcom/sepolicy.mk
